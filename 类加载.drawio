@@ -1,16 +1,99 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.6">
   <diagram name="第 1 页" id="nz_lD5bH0a3m_Coh5EJj">
-    <mxGraphModel dx="1114" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1623" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="mTcCyP0DI4RUbfK708Mu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mTcCyP0DI4RUbfK708Mu-1">
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mTcCyP0DI4RUbfK708Mu-1" target="mTcCyP0DI4RUbfK708Mu-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-1" value="&lt;span style=&quot;text-align: left; text-wrap-mode: nowrap;&quot;&gt;ClassPathLoader&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="490" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mTcCyP0DI4RUbfK708Mu-23" target="mTcCyP0DI4RUbfK708Mu-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-23" value="start" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="320" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mTcCyP0DI4RUbfK708Mu-24" target="mTcCyP0DI4RUbfK708Mu-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mTcCyP0DI4RUbfK708Mu-24" target="mTcCyP0DI4RUbfK708Mu-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-24" value="加载ClassLoader" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-25" value="链接" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;" edge="1" parent="1" source="mTcCyP0DI4RUbfK708Mu-26" target="mTcCyP0DI4RUbfK708Mu-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-26" value="初始化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mTcCyP0DI4RUbfK708Mu-28">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="540" as="targetPoint" />
+            <mxPoint x="510" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mTcCyP0DI4RUbfK708Mu-1" value="ClassLoader" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="310" y="430" width="120" height="60" as="geometry" />
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-32" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTcCyP0DI4RUbfK708Mu-31">
+          <mxGeometry x="-0.0862" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-28" value="findLoadedClass" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="475" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-33" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="1230" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="mTcCyP0DI4RUbfK708Mu-39">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-42" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTcCyP0DI4RUbfK708Mu-40">
+          <mxGeometry x="-0.1405" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-39" value="Extension ClassLoader" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="510" y="475" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="mTcCyP0DI4RUbfK708Mu-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-47" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTcCyP0DI4RUbfK708Mu-46">
+          <mxGeometry x="-0.005" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-44" value="Bootstrap ClassLoader" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="770" y="475" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="mTcCyP0DI4RUbfK708Mu-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-70" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1125" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-59" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mTcCyP0DI4RUbfK708Mu-58">
+          <mxGeometry x="-0.9101" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-56" value="findClass" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="475" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="mTcCyP0DI4RUbfK708Mu-62" value="&lt;span style=&quot;background-color: initial;&quot;&gt;类加载，以ClassPathLoader为例&lt;/span&gt;&lt;br&gt;&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: wrap;&quot;&gt;findLoadedClass&lt;/span&gt;先判断当前类有没有被加载，有则直接返回&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;双亲委派机制优先加载父加载器，有则直接返回&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;父加载器没有找到应用类加载器在自己类路径下加载&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="315" width="380" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
