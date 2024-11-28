@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.9.1">
   <diagram name="第 1 页" id="8G1y-clWw26UjkhHpHUq">
-    <mxGraphModel dx="891" dy="553" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1311" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -214,7 +214,7 @@
         <mxCell id="OxOW3U8F0KfQq1vBwfxs-40" value="&lt;h5 style=&quot;font-family: Tahoma;&quot;&gt;&lt;br&gt;&lt;/h5&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="524.81" y="945" width="20" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OxOW3U8F0KfQq1vBwfxs-42" value="java堆：用于存储所有对象实例和数组以及字符串常量池的区域（分为年轻代、老年代、方法区/永久代/元空间），也是GC重灾区&#xa;&#xa;&#xa;方法区：用于存储已加载的类信息、常量池、静态变量、即时编译器（JIT）编译后的代码等；&#xa;JDK 8 之前：方法区是堆的一部分，通常也称为 “永久代（PermGen）”，JDK 8 之后：方法区被 元空间（Metaspace） 取代，存放在本地内存中，而非堆内。&#xa;&#xa;&#xa;程序计数器：线程私有，存储当前线程执行的字节码指令地址。在方法执行时，程序计数器用于存储当前指令位置，唯一不会OOM的区域&#xa;&#xa;&#xa;虚拟机栈：为执行Java方法服务，用于存储java方法的上下文数据&#xa;&#xa;&#xa;本地方法栈：为执行Native方法服务，用于存储本地方法的上下文数据；jvm不关心本地方法的执行实现，但是会记录本地方法的执行上下文（局部变量、方法参数、返回地址等）；&#xa;在JVM中，Java代码会调用本地方法（通常是用C/C++编写的代码），这些本地方法通常是与底层操作系统交互的。" style="text;whiteSpace=wrap;fontFamily=Tahoma;fontSize=12;fontStyle=1;labelBackgroundColor=default;autosize=1;resizable=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+        <mxCell id="OxOW3U8F0KfQq1vBwfxs-42" value="java堆：用于存储所有对象实例和数组以及字符串常量池的区域（分为年轻代、老年代、方法区/永久代/元空间），也是GC重灾区&#xa;&#xa;&#xa;方法区：用于存储已加载的类信息、常量池、静态变量、即时编译器（JIT）编译后的代码等；&#xa;JDK 8 之前：方法区是堆的一部分，通常也称为 “永久代（PermGen）”，JDK 8 之后：方法区被 元空间（Metaspace） 取代，存放在本地内存中，而非堆内。&#xa;&#xa;&#xa;程序计数器：线程私有，存储当前线程执行的字节码指令地址。在方法执行时，程序计数器用于存储当前指令位置，唯一不会OOM的区域&#xa;&#xa;&#xa;虚拟机栈：为执行Java方法服务，用于存储java方法的上下文数据&#xa;&#xa;&#xa;本地方法栈：为执行Native方法服务，用于存储本地方法的上下文数据；jvm不关心本地方法的执行实现，但是会记录本地方法的执行上下文（局部变量、方法参数、返回地址等）；&#xa;在JVM中，Java代码会调用本地方法（通常是用C/C++编写的代码），这些本地方法通常是与底层操作系统交互的。" style="text;whiteSpace=wrap;fontFamily=Tahoma;fontSize=12;fontStyle=1;labelBackgroundColor=default;autosize=1;resizable=0;fillColor=none;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="199" y="760" width="970" height="230" as="geometry" />
         </mxCell>
         <mxCell id="OxOW3U8F0KfQq1vBwfxs-43" value="后台线程是一种在JVM空闲时可以自动退出的线程&#xa;后台线程常用来执行一些辅助性任务（垃圾回收、后台日志记录）&#xa;前台线程：默认创建的线程据均为前台线程&#xa;前台线程通常用于处理业务逻辑或用户请求等核心任务&#xa;区别：当只有后台线程存在时，JVM会自动结束运行&#xa;可以通过 Thread.setDaemon(true) 方法将线程设置为后台线程。必须在启动线程前设置，否则会抛出 IllegalThreadStateException 异常" style="text;whiteSpace=wrap;fontFamily=Tahoma;fontSize=12;fontColor=default;fontStyle=1;labelBackgroundColor=default;autosize=1;resizable=0;" parent="1" vertex="1">
